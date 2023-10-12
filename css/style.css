@@ -20,7 +20,6 @@ h1, h2, h3, p {
 }
 
 
-
 /*==========Header==========*/
 .header {
     margin: 0;
@@ -49,11 +48,15 @@ h1, h2, h3, p {
 
 .menu {
     display: flex;
+    max-width: 850px;
+    height: 30px;
+    overflow: hidden;
 }
 
 .menu_link {
     color: #fff;
     margin-left: 50px;
+    padding-bottom: 10px;
     font-size: 19px;
     position: relative;
     transition: all .1s linear;
@@ -70,7 +73,7 @@ h1, h2, h3, p {
 .main_link::before {
     content: "";
     position: absolute;
-    bottom: -42px;
+    bottom: 5px;
     left: 0;
     background-color: #ffa51f;
     border-radius: 2px;
@@ -81,6 +84,10 @@ h1, h2, h3, p {
 h1 {
     color: #ffa51f;
     padding-left: 10px;
+    max-width: 150px;
+    height: 30px;
+    overflow: hidden;
+    text-align: left;
 }
 
 
